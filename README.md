@@ -16,12 +16,14 @@ A Chrome extension and a connector deployed in the customer's own AWS account br
 
 | Section | Description | Status |
 |---|---|---|
-| Getting Started | Product overview, release notes | Coming soon |
-| Deployment & Setup | AWS CloudFormation deployment, agent setup | Deployment Guide available |
-| User Guides | Agent day-to-day usage, WhatsApp messaging | Coming soon |
-| Administration | Admin portal configuration | Coming soon |
-| Support & Troubleshooting | Common issues and fixes | Coming soon |
-| Solution Security | Tenancy, data handling, authentication | Coming soon |
+| Getting Started | Product overview, release notes | Drafted — pending screenshots |
+| Deployment & Setup | AWS CloudFormation deployment, agent setup | Drafted — pending screenshots |
+| User Guides | Agent day-to-day usage, WhatsApp messaging | Drafted — pending screenshots |
+| Administration | Admin portal configuration | Drafted — pending screenshots |
+| Support & Troubleshooting | Common issues and fixes | Drafted |
+| Solution Security | Tenancy, data handling, authentication | Drafted |
+
+Pages marked "pending screenshots" have inline placeholders (🖼️) marking exactly what to capture and where.
 
 ## Contributing
 
