@@ -150,7 +150,7 @@ This will point your subdomain to the load balancer and secure your connector UR
 </p>
 
 <p align="center" markdown="1">
-![Creating a new DNS record](../assets/deployment-guide/figure-3-create-dns-record.png){ width="640" }
+![Creating a new DNS record](../assets/deployment-guide/figure-3-create-dns-record.png){ width="500" }
 
 *Figure 3 — Creating a new DNS record*
 </p>
