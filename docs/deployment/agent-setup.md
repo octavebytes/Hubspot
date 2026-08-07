@@ -42,9 +42,9 @@ The connector opens your softphone in a pop-up window. The first time you open H
 2. Select **"Always allow pop-ups and redirects from [connector URL]."**
 3. Click **Done**, then reload the page.
 
-<p align="center" markdown="1">
+<figure class="doc-figure" markdown="1">
 ![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-6-allow-popups.png){ width="640" }
-</p>
+</figure>
 
 ## Step 4 — Log in to your softphone
 

@@ -166,3 +166,26 @@
   height: 32px;
   width: auto;
 }
+
+/* Documentation figures (screenshots with captions) */
+.md-typeset figure.doc-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px auto;
+  text-align: center;
+}
+
+.md-typeset figure.doc-figure img {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid rgba(0,169,157,0.25);
+  border-radius: 6px;
+}
+
+.md-typeset figure.doc-figure figcaption {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--md-default-fg-color--light);
+}

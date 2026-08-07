@@ -121,11 +121,10 @@ Have the following information ready before you start the wizard. This list refl
 
 Once the stack finishes deploying, open the **Outputs** tab and copy the load balancer URL — you'll need it in the next section to configure DNS.
 
-<p align="center" markdown="1">
+<figure class="doc-figure" markdown="1">
 ![Load balancer URL shown in the CloudFormation stack Outputs tab](../assets/deployment-guide/figure-1-loadbalancer-output.png){ width="640" }
-
-*Figure 1 — Load balancer URL shown in the CloudFormation stack Outputs tab*
-</p>
+<figcaption>Figure 1 — Load balancer URL shown in the CloudFormation stack Outputs tab</figcaption>
+</figure>
 
 ---
 
@@ -143,23 +142,20 @@ This is the second of two DNS touchpoints in this guide — the first was the ce
 
 This will point your subdomain to the load balancer and secure your connector URL, redirecting HTTP traffic to HTTPS automatically.
 
-<p align="center" markdown="1">
+<figure class="doc-figure" markdown="1">
 ![Selecting the hosted zone in Route 53](../assets/deployment-guide/figure-2-route53-hosted-zone.png){ width="640" }
+<figcaption>Figure 2 — Selecting the hosted zone in Route 53</figcaption>
+</figure>
 
-*Figure 2 — Selecting the hosted zone in Route 53*
-</p>
-
-<p align="center" markdown="1">
+<figure class="doc-figure" markdown="1">
 ![Creating a new DNS record](../assets/deployment-guide/figure-3-create-dns-record.png){ width="500" }
+<figcaption>Figure 3 — Creating a new DNS record</figcaption>
+</figure>
 
-*Figure 3 — Creating a new DNS record*
-</p>
-
-<p align="center" markdown="1">
+<figure class="doc-figure" markdown="1">
 ![Configuring the A record as an alias to the Application Load Balancer](../assets/deployment-guide/figure-4-a-record-config.png){ width="640" }
-
-*Figure 4 — Configuring the A record as an alias to the Application Load Balancer (the record name and domain shown are illustrative — substitute your own subdomain)*
-</p>
+<figcaption>Figure 4 — Configuring the A record as an alias to the Application Load Balancer (the record name and domain shown are illustrative — substitute your own subdomain)</figcaption>
+</figure>
 
 DNS changes can take anywhere from a few minutes up to 48 hours to propagate fully, though most updates are visible within 15–30 minutes. Confirm the FQDN resolves correctly (for example, by opening it in a browser) before moving on to Section 6.
 
@@ -176,11 +172,10 @@ Once this is complete, share the resulting Fully Qualified Domain Name (FQDN) �
 3. You will be prompted to **Install the app**. Click **Install** (or **Grant access**) and approve the requested HubSpot permissions when prompted.
 4. If you land on the wrong HubSpot portal, log out and sign back in with the correct account before retrying.
 
-<p align="center" markdown="1">
+<figure class="doc-figure" markdown="1">
 ![Install the app prompt](../assets/deployment-guide/figure-5-install-app-prompt.png){ width="360" }
-
-*Figure 5 — Install the app prompt*
-</p>
+<figcaption>Figure 5 — Install the app prompt</figcaption>
+</figure>
 
 ### 6.2 Allow Pop-ups
 
@@ -191,11 +186,10 @@ The first time each agent opens the connector FQDN, Chrome blocks the connector'
 - Click **Done**.
 - Reload the page.
 
-<p align="center" markdown="1">
+<figure class="doc-figure" markdown="1">
 ![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-6-allow-popups.png){ width="640" }
-
-*Figure 6 — Allowing pop-ups for the connector URL in Chrome*
-</p>
+<figcaption>Figure 6 — Allowing pop-ups for the connector URL in Chrome</figcaption>
+</figure>
 
 ---
 
@@ -218,11 +212,10 @@ https://connector.yourcompany.com/connector.html
 
 Appending `/connector.html` to the FQDN is mandatory for the extension to function correctly.
 
-<p align="center" markdown="1">
+<figure class="doc-figure" markdown="1">
 ![Entering the connector URL in the Chrome extension](../assets/deployment-guide/figure-7-extension-connector-url.png){ width="420" }
-
-*Figure 7 — Entering the connector URL in the Chrome extension*
-</p>
+<figcaption>Figure 7 — Entering the connector URL in the Chrome extension</figcaption>
+</figure>
 
 ---
 
