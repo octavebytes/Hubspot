@@ -6,8 +6,9 @@ This guide covers the connector's admin portal, used to connect HubSpot, tune ag
 
 1. Navigate to your connector's bare FQDN, e.g. `https://connector.yourcompany.com`.
 2. Log in with the admin credentials provided during deployment.
-
-> 🖼️ **Screenshot placeholder:** The admin portal login screen.
+<figure class="doc-figure" markdown="1">
+![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-21-login.png){ width="440" }
+</figure>
 
 The admin portal has four sections, accessible from the top navigation: **Home** (release notes), **Settings**, **License Details**, and **Logged-in Agents**.
 
@@ -26,13 +27,16 @@ From **Settings**, four toggles control agent-facing behavior:
 | **Queue Selection** | When on, agents can choose a queue before placing an outbound call. When off, that option is hidden and outbound calls use the default queue. |
 | **Wrap-Up Notes** | When on, agents are shown a disposition and note form after each call ends (see the [Agent User Guide](../user-guides/agent-guide.md#wrap-up-dispositions-and-notes)). When off, calls are logged automatically with no wrap-up step. |
 
-> 🖼️ **Screenshot placeholder:** The Settings page's "Toggle Settings" section, showing all four toggles.
+<figure class="doc-figure" markdown="1">
+![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-22-toggle.png){ width="640" }
+</figure>
 
 ## Screenpop configuration
 
 Under **Screen Pop Configuration**, choose which HubSpot object type the connector searches and opens when a call or chat arrives: **Contact** or **Deal**. This determines what agents land on during screenpop.
-
-> 🖼️ **Screenshot placeholder:** The Screen Pop Configuration radio buttons (Contact / Deal).
+<figure class="doc-figure" markdown="1">
+![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-17-screenpop.png){ width="640" }
+</figure>
 
 ### No-match configuration
 
@@ -47,8 +51,10 @@ Under **Engagement Configuration**, enter any AWS Connect contact attributes you
 ### Dispositions
 
 Under **Disposition Configuration**, enter your inbound and outbound disposition lists, comma-separated (e.g. `Resolved, Follow-up needed, No answer` for inbound). These populate the wrap-up dropdown agents see after a call — inbound and outbound calls have separate lists. Existing dispositions are listed below the form and can be removed individually.
+<figure class="doc-figure" markdown="1">
+![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-18-disposition.png){ width="640" }
+</figure>
 
-> 🖼️ **Screenshot placeholder:** The Engagement Configuration and Disposition Configuration forms, with example attributes and dispositions entered.
 
 ## License management
 
@@ -56,18 +62,17 @@ Under **License Details**:
 
 - **License Information** shows your current license status — customer name, HubSpot portal, expiry, and seat count.
 - **Update License** lets you paste in a new license key if you've received a renewal or seat change from Octave Bytes.
+<figure class="doc-figure" markdown="1">
+![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-19-license.png){ width="640" }
+</figure>
 
-> 🖼️ **Screenshot placeholder:** The License Details page, showing license information and the update-license form.
 
 ## Managing logged-in agents
 
 **Logged-in Agents** lists every agent currently signed in, with their name, username, and agent ID. Use **Refresh** to update the list, and use the row actions to remove a stale or unwanted session — useful if an agent's device was lost or they're locked out and need a clean re-login.
-
-> 🖼️ **Screenshot placeholder:** The Logged-in Agents table with a few example rows and the Refresh button.
-
-## Changing the admin password
-
-From **Settings**, use **Change Admin Password** — enter your current password, then a new password (at least 10 characters), and confirm it.
+<figure class="doc-figure" markdown="1">
+![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-20-agentList.png){ width="640" }
+</figure>
 
 ## Next steps
 

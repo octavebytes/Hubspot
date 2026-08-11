@@ -29,8 +29,10 @@ The first time you install the extension, it will prompt you for your connector 
 2. Click **Save**.
 
 > Appending `/connector.html` to the FQDN is mandatory for the extension to function correctly. Don't use the bare FQDN here — that's a separate URL used only during the one-time HubSpot app install.
+<figure class="doc-figure" markdown="1">
+![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-8-Configure your connector URL.png){ width="540" }
+</figure>
 
-> 🖼️ **Screenshot placeholder:** The extension's "Please Provide Connector URL" options screen with the URL field filled in.
 
 You can revisit this screen later from `chrome://extensions` → HubSpot CTI Connector → **Extension options**, if you ever need to change it.
 
@@ -52,7 +54,12 @@ The connector opens your softphone in a pop-up window. The first time you open H
 2. When prompted, log in with your AWS Connect agent credentials.
 3. Once logged in, your agent status and softphone controls will appear in the connector window.
 
-> 🖼️ **Screenshot placeholder:** The connector popup window's AWS Connect CCP login screen.
+<figure class="doc-figure" markdown="1">
+![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-9
+.png){ width="640" }
+</figure>
+
+
 
 ## You're ready
 
