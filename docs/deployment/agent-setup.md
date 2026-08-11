@@ -13,8 +13,9 @@ This guide is for individual agents setting up the HubSpot CTI Connector on thei
 
 1. Open the **HubSpot CTI Connector for AWS Connect** listing on the Chrome Web Store.
 2. Click **Add to Chrome**.
-
-> 🖼️ **Screenshot placeholder:** Chrome Web Store listing page for the "HubSpot CTI Connector for AWS Connect" extension, showing the Add to Chrome button.
+<figure class="doc-figure" markdown="1">
+![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-24-extension.png){ width="640" }
+</figure>
 
 ## Step 2 — Configure your connector URL
 

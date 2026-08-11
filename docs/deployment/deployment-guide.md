@@ -1,6 +1,8 @@
 # HubSpot CTI Connector — Automated Deployment Guide
 
 ![Octave Bytes](../assets/deployment-guide/logo.png){ width="220" }
+![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/logo.png){ width="220" }
+</figure>
 
 **Version 3.2 | 16 July 2026**
 Prepared for Customer Deployment Teams
@@ -94,7 +96,6 @@ Have the following information ready before you start the wizard. This list refl
 | `ECRRepoUrl` | `747926693930.dkr.ecr.us-east-1.amazonaws.com/hubspot-connector:baserelease` |
 | `AppBaseURL` | Add your FQDN here. For example `https://connector.yourcompany.com` |
 | `CustomerName` | Your company name, used for license and display labeling. |
-| `CALLTRANSCRIPT` | `ON` or `OFF` — enables or disables call transcript capture. Default: `ON`. |
 | `InstanceType` | EC2 size for the connector instance: select **t3.medium**. |
 | `AccountIdForPolicy` | Your own AWS Account ID — the account you are deploying into. |
 | `ACMCertificateArn` | ARN of the validated ACM certificate from Section 2. |
