@@ -14,7 +14,7 @@ This guide is for individual agents setting up the HubSpot CTI Connector on thei
 1. Open the **HubSpot CTI Connector for AWS Connect** listing on the Chrome Web Store.
 2. Click **Add to Chrome**.
 <figure class="doc-figure" markdown="1">
-![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-24-extension.png){ width="640" }
+![HubSpot CTI Connector extension listing on the Chrome Web Store](../assets/deployment-guide/figure-24-extension.png){ width="640" }
 </figure>
 
 ## Step 2 — Configure your connector URL
@@ -31,7 +31,7 @@ The first time you install the extension, it will prompt you for your connector 
 
 > Appending `/connector.html` to the FQDN is mandatory for the extension to function correctly. Don't use the bare FQDN here — that's a separate URL used only during the one-time HubSpot app install.
 <figure class="doc-figure" markdown="1">
-![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-8-Configure your connector URL.png){ width="540" }
+![Entering the connector URL in the extension options screen](../assets/deployment-guide/figure-8-Configure your connector URL.png){ width="540" }
 </figure>
 
 
@@ -56,8 +56,7 @@ The connector opens your softphone in a pop-up window. The first time you open H
 3. Once logged in, your agent status and softphone controls will appear in the connector window.
 
 <figure class="doc-figure" markdown="1">
-![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-9
-.png){ width="640" }
+![AWS Connect CCP login screen in the connector popup](../assets/deployment-guide/figure-9.png){ width="640" }
 </figure>
 
 

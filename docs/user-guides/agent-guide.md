@@ -26,20 +26,20 @@ There are three possible outcomes:
 
 ## Inbound Voice
 <figure class="doc-figure" markdown="1">
-![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-10.png){ width="640" }
+![Inbound call screenpop showing the matched HubSpot contact](../assets/deployment-guide/figure-10.png){ width="640" }
 </figure>
 <figure class="doc-figure" markdown="1">
-![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-11.png){ width="340" }
+![AWS Connect softphone handling an inbound call](../assets/deployment-guide/figure-11.png){ width="340" }
 </figure>
 
 ## Inbound Chat
 <figure class="doc-figure" markdown="1">
-![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-25-inboundWhatsapp.png){ width="640" }
+![Inbound chat conversation in the connector chat panel](../assets/deployment-guide/figure-26-inboudChat.png){ width="640" }
 </figure>
 
 ## Inbound Whatsapp Message
 <figure class="doc-figure" markdown="1">
-![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-26-inboudChat.png){ width="640" }
+![Inbound WhatsApp message logged on the HubSpot contact timeline](../assets/deployment-guide/figure-25-inboundWhatsapp.png){ width="640" }
 </figure>
 
 
@@ -51,7 +51,7 @@ You can call any phone number directly from HubSpot without opening the softphon
 1. Find a phone number field on a contact, deal, company, or ticket record — a small **dial button** appears next to it automatically.
 2. Click the dial button. The call is placed through your softphone, and the engagement is automatically linked to the record you dialed from.
 <figure class="doc-figure" markdown="1">
-![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-12-clicktoDialButton.png){ width="640" }
+![Dial button injected next to a phone number field in HubSpot](../assets/deployment-guide/figure-12-clicktoDialButton.png){ width="640" }
 </figure>
 
 Dial buttons work on phone and mobile fields labeled in several languages (English, Spanish, etc.), so this works the same way across supported locales.
@@ -67,7 +67,7 @@ If your account has WhatsApp enabled, you can message any contact directly from 
 - **Recording pause/resume** — if call recording is enabled for your contact center, use the pause/resume control in the softphone before discussing anything that shouldn't be recorded (e.g. payment details), then resume when you're done.
 
 <figure class="doc-figure" markdown="1">
-![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-13-pause/resume.png){ width="340" }
+![Recording pause/resume control in the softphone toolbar](../assets/deployment-guide/figure-13-pause-resume.png){ width="340" }
 </figure>
 
 ## Wrap-up: dispositions and notes
@@ -78,7 +78,7 @@ If your admin has enabled wrap-up, you'll see a short form after each call ends 
 2. Optionally add a **note** describing the call.
 3. Submit. Your disposition and note are appended to the call's description in HubSpot, so anyone reviewing the record later can see the outcome.
 <figure class="doc-figure" markdown="1">
-![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-14-wrapupNotes.png){ width="340" }
+![Wrap-up disposition and note form](../assets/deployment-guide/figure-14-wrapupNotes.png){ width="340" }
 </figure>
 
 

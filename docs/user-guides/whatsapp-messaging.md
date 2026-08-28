@@ -7,7 +7,7 @@ If your account has WhatsApp enabled, agents can send and receive WhatsApp messa
 1. Find a phone number field on a contact, deal, company, or ticket record in HubSpot.
 2. Click the **message button** next to the field — a WhatsApp panel opens as a popover.
 <figure class="doc-figure" markdown="1">
-![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-15-whatsapp.png){ width="340" }
+![WhatsApp send panel opened from a HubSpot phone field](../assets/deployment-guide/figure-15-whatsapp.png){ width="340" }
 </figure>
 
 3. Choose how you want to send:
@@ -15,7 +15,7 @@ If your account has WhatsApp enabled, agents can send and receive WhatsApp messa
    - **Free text** — type a message directly. Free-text messages are only deliverable within an active WhatsApp conversation window; outside that window, WhatsApp requires an approved template.
 4. Click **Send**.
 <figure class="doc-figure" markdown="1">
-![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-16.png){ width="340" }
+![WhatsApp template picker with variable fields](../assets/deployment-guide/figure-16.png){ width="340" }
 </figure>
 
 
@@ -34,7 +34,7 @@ Inbound WhatsApp messages arrive through the same AWS Connect chat channel as re
 - If there are multiple matches, you'll see the same picker used for inbound calls — see the [Agent User Guide](agent-guide.md#inbound-calls-chats-and-whatsapp-screenpop) for details.
 
 <figure class="doc-figure" markdown="1">
-![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-23-whatsappchat.png){ width="640" }
+![Inbound WhatsApp conversation in the connector chat panel](../assets/deployment-guide/figure-23-whatsappchat.png){ width="640" }
 </figure>
 
 ## Troubleshooting
