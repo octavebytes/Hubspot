@@ -24,12 +24,25 @@ There are three possible outcomes:
 | **Multiple matches found** | A short picker appears in the connector window listing each matching contact (with name and email) — pick the right one and HubSpot will navigate to it |
 | **No match found** | A new HubSpot contact is created automatically using the phone number, so the call is still logged against a record |
 
+## Inbound Voice
 <figure class="doc-figure" markdown="1">
 ![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-10.png){ width="640" }
 </figure>
 <figure class="doc-figure" markdown="1">
 ![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-11.png){ width="340" }
 </figure>
+
+## Inbound Chat
+<figure class="doc-figure" markdown="1">
+![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-25-inboundWhatsapp.png){ width="640" }
+</figure>
+
+## Inbound Whatsapp Message
+<figure class="doc-figure" markdown="1">
+![Allowing pop-ups for the connector URL in Chrome](../assets/deployment-guide/figure-26-inboudChat.png){ width="640" }
+</figure>
+
+
 
 ## Outbound click-to-dial
 
